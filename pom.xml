@@ -20,28 +20,28 @@
             <artifactId>netty-transport-native-epoll-ppcle</artifactId>
             <version>4.1.107.Final-redhat-00001</version>
             <classifier>linux-s390_64</classifier>
-            <type>jar</type
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-ppcle</artifactId>
             <version>4.1.107.Final-redhat-00001</version>
             <classifier>linux-ppcle_64</classifier>
-            <type>jar</type
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-s390x</artifactId>
             <version>4.1.107.Final-redhat-00001</version>
             <classifier>linux-ppcle_64</classifier>
-            <type>jar</type
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-s390x</artifactId>
             <version>4.1.107.Final-redhat-00001</version>
             <classifier>linux-s390_64</classifier>
-            <type>jar</type
+            <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.aayushatharva.brotli4j</groupId>
