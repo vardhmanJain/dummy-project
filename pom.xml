@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>dummy-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport-native-epoll-ppcle</artifactId>
+            <version>4.1.107.Final-redhat-00001</version>
+            <classifier>linux-s390_64</classifier>
+            <type>jar</type
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport-native-unix-common-ppcle</artifactId>
+            <version>4.1.107.Final-redhat-00001</version>
+            <classifier>linux-ppcle_64</classifier>
+            <type>jar</type
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport-native-epoll-s390x</artifactId>
+            <version>4.1.107.Final-redhat-00001</version>
+            <classifier>linux-ppcle_64</classifier>
+            <type>jar</type
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-transport-native-unix-common-s390x</artifactId>
+            <version>4.1.107.Final-redhat-00001</version>
+            <classifier>linux-s390_64</classifier>
+            <type>jar</type
+        </dependency>
+        <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-linux-s390x</artifactId>
+            <version>1.16.0.redhat-00003</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-linux-ppc64le</artifactId>
+            <version>1.16.0.redhat-00003</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
+
+</project>
