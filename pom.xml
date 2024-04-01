@@ -55,6 +55,12 @@
             <version>1.16.0</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-linux-aarch64</artifactId>
+            <version>1.16.0</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
     <build>
