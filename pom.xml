@@ -19,7 +19,7 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-ppcle</artifactId>
             <version>4.1.107.Final</version>
-            <classifier>linux-s390_64</classifier>
+            <classifier>linux-ppcle_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
@@ -33,7 +33,7 @@
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-s390x</artifactId>
             <version>4.1.107.Final</version>
-            <classifier>linux-ppcle_64</classifier>
+            <classifier>linux-s390_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
