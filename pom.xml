@@ -18,41 +18,41 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-ppcle</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-s390_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-ppcle</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-ppcle_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-s390x</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-ppcle_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-s390x</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-s390_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.aayushatharva.brotli4j</groupId>
             <artifactId>native-linux-s390x</artifactId>
-            <version>1.16.0.redhat-00003</version>
+            <version>1.16.0</version>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.aayushatharva.brotli4j</groupId>
             <artifactId>native-linux-ppc64le</artifactId>
-            <version>1.16.0.redhat-00003</version>
+            <version>1.16.0</version>
             <type>jar</type>
         </dependency>
     </dependencies>
