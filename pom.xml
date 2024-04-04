@@ -18,41 +18,41 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-ppcle</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
-            <classifier>linux-s390_64</classifier>
+            <version>4.1.107.Final</version>
+            <classifier>linux-ppcle_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-ppcle</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-ppcle_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll-s390x</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
-            <classifier>linux-ppcle_64</classifier>
+            <version>4.1.107.Final</version>
+            <classifier>linux-s390_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-unix-common-s390x</artifactId>
-            <version>4.1.107.Final-redhat-00001</version>
+            <version>4.1.107.Final</version>
             <classifier>linux-s390_64</classifier>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.aayushatharva.brotli4j</groupId>
             <artifactId>native-linux-s390x</artifactId>
-            <version>1.16.0.redhat-00003</version>
+            <version>1.16.0</version>
             <type>jar</type>
         </dependency>
         <dependency>
             <groupId>com.aayushatharva.brotli4j</groupId>
             <artifactId>native-linux-ppc64le</artifactId>
-            <version>1.16.0.redhat-00003</version>
+            <version>1.16.0</version>
             <type>jar</type>
         </dependency>
         <dependency>
@@ -66,7 +66,35 @@
             <artifactId>native-windows-x86_64</artifactId>
             <version>1.16.0.redhat-00003</version>
             <type>jar</type>
+            <artifactId>native-linux-aarch64</artifactId>
+            <version>1.16.0</version>
+            <type>jar</type>
+        </dependency>
+                <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-linux-aarch64</artifactId>
+            <version>1.16.0</version>
+            <type>pom</type>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>3.3.0</version>
+            <executions>
+            <execution>
+                <id>attach-sources</id>
+                <phase>verify</phase>
+                <goals>
+                <goal>jar-no-fork</goal>
+                </goals>
+            </execution>
+            </executions>
+        </plugin>
+        </plugins>
+    </build>
 
 </project>
