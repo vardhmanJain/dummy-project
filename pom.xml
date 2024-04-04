@@ -55,6 +55,18 @@
             <version>1.16.0.redhat-00003</version>
             <type>jar</type>
         </dependency>
+        <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-windows-x86_64</artifactId>
+            <version>1.16.0.redhat-00003</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>com.aayushatharva.brotli4j</groupId>
+            <artifactId>native-windows-x86_64</artifactId>
+            <version>1.16.0.redhat-00003</version>
+            <type>jar</type>
+        </dependency>
     </dependencies>
 
 </project>
